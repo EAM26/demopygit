@@ -8,3 +8,11 @@ class Employee:
 
    def give_raise(self, amount = 5000):
         self.annual_salary += amount
+
+
+   def show_employee(self):
+       print(f"{self.first_name} {self.last_name} sal: {self.annual_salary}")
+
+
+
+
